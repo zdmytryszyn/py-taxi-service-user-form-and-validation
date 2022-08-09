@@ -15,7 +15,8 @@ license:
     - Last 5 characters are digits
 4. On the driver detail page add buttons that lead to the driver's license updating page and
 driver deletion page.
-5. On the car detail page add button `Assign me to this car`. This button adds 
+5. On car creation page switch to checkboxes widget for assigning drivers to car.
+6. On the car detail page add button `Assign me to this car`. This button adds 
 current user to car drivers. When current user is already a driver of this car, 
 there should be `Delete me from this car` button that deletes user from car drivers.
 
