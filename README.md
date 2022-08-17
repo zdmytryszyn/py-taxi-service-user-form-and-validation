@@ -1,6 +1,7 @@
 # Taxi service user form and validation
 
-- Read [the guideline](https://github.com/mate-academy/py-task-guideline/blob/main/README.md) before start
+- Read [the guideline](https://github.com/mate-academy/py-task-guideline/blob/main/README.md) before start.
+- Make sure that you change the settings for [html-files](https://github.com/mate-academy/py-task-guideline/blob/main/html_settings/README.MD).
 
 In this task, you will implement a custom form and django built-in forms to create,
 update or delete content from the site.
