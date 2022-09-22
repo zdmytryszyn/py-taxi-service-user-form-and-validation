@@ -2,6 +2,15 @@
 
 - Read [the guideline](https://github.com/mate-academy/py-task-guideline/blob/main/README.md) before start.
 - Make sure that you change the settings for [html-files](https://github.com/mate-academy/py-task-guideline/blob/main/html_settings/README.MD).
+- Use the following command to load prepared data from fixture to test and debug your code:
+  
+`python manage.py loaddata taxi_service_db_data.json`
+
+- After loading data from fixture you can use following superuser (or create another one by yourself):
+  - Login: `admin.user`
+  - Password: `1qazcde3`
+
+Feel free to add more data using admin panel, if needed.
 
 In this task, you will implement a custom form and django built-in forms to create,
 update or delete content from the site.
@@ -9,8 +18,8 @@ update or delete content from the site.
 1. Implement:
     - `Create`, `Delete` views for `Driver`, 
 2. On the driver list page create a button that leads to the driver creation page.
-3. Create a driver's license update page. The form on this page must check that 
-license:
+3. Create a driver's license update page. The form - `DriverLicenseUpdateForm`
+on this page must check that license:
     - Consist only of 8 characters
     - First 3 characters are uppercase letters
     - Last 5 characters are digits
