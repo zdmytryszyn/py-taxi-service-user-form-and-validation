@@ -13,14 +13,14 @@ Make sure you don't push db files (files with `.sqlite`, `.db3`, etc. extension)
 Good example:
 
 ```python
-class DriverCreateForm(UserCreationForm):
+class DriverCreationForm(UserCreationForm):
     pass
 ```
 
 Bad example:
 
 ```python
-class DriverCreateForm(forms.ModelForm):
+class DriverCreationForm(forms.ModelForm):
     pass
 ```
 
