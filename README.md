@@ -1,6 +1,6 @@
 # Taxi service user form and validation
 
-- Read [the guideline](https://github.com/mate-academy/py-task-guideline/blob/main/README.md) before start.
+Read [the guideline](https://github.com/mate-academy/py-task-guideline/blob/main/README.md) before starting.
 - Make sure that you change the settings for [html-files](https://github.com/mate-academy/py-task-guideline/blob/main/html_settings/README.MD).
 - Use the following command to load prepared data from fixture to test and debug your code:
   
@@ -35,3 +35,5 @@ The car detail page should look like this:
 ![image](https://mate-academy-images.s3.eu-central-1.amazonaws.com/django-forms-2.png)
 
 NOTE: Attach screenshots of all created or modified pages to pull request. It's important to attach images not links to them.
+
+### Note: Check your code using this [checklist](checklist.md) before pushing your solution.
